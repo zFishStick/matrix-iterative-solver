@@ -2,6 +2,10 @@
 name = "matrix-iterative-solver"
 version = "0.1.0"
 edition = "2024"
+authors = ["zFishStick"]
+description = "Library containing iterative algorithms to find solutions for sparse matrices"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/zFishStick/matrix-iterative-solver"
 
 [dependencies]
 matrix-market-rs = "0.1.3"
