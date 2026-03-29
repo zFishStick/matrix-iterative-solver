@@ -1,5 +1,3 @@
-mod solvers;
-mod input;
 
 use matrix_iterative_solver::solvers::iterative_solver::IterativeSolver;
 use matrix_iterative_solver::solvers::jacobi::JacobiSolver;
