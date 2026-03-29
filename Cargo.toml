@@ -6,6 +6,10 @@ authors = ["zFishStick"]
 description = "Library containing iterative algorithms to find solutions for sparse matrices"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/zFishStick/matrix-iterative-solver"
+exclude = [
+    "main.rs",
+    "test/*"
+]
 
 [dependencies]
 matrix-market-rs = "0.1.3"
